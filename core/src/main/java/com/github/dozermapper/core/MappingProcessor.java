@@ -81,7 +81,7 @@ import static com.github.dozermapper.core.util.DozerConstants.ITERATE;
  */
 public class MappingProcessor implements Mapper {
 
-    private final Logger log = LoggerFactory.getLogger(MappingProcessor.class);
+    private static final Logger log = LoggerFactory.getLogger(MappingProcessor.class);
 
     private final ClassMappings classMappings;
     private final Configuration globalConfiguration;
